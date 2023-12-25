@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач (To-Do List)</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="sectionForm">
+        <div class="divAppTitle">
+            Список задач (To-Do List) 
+        </div>
+        <div class="divContainer">
+            <form class="formTaskInput" id="formTaskInput">
+                <h3>Новая задача</h3>
+                <label for="inputTaskName">Название задачи:</label>
+                <input type="text" id="inputTaskName" required>
+                <br><br>
+                <input type="submit" id="inputButtonSubmit" class="inputSubmit" value="Добавить" >
+            </form>
+        </div>
+        <h3 style="text-align: center;">Список задач:</h3>
+        <div class="divTasks" id="divTasks"></div>
+       
+
+        <div class="divTaskDescription">
+            <img src="../../img/3.png" alt="Задание">
+        </div>
+    </section>
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

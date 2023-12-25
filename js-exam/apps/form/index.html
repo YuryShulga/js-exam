@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="sectionForm">
+        <div class="divAppTitle">
+            Форма регистрации 
+        </div>
+
+        <form id="formMy">
+            <label for="inputName">Имя:</label>
+            <input type="text" id="inputName" placeholder="введите имя" required>
+            <br><br>
+            <label for="inputEmail">Email:</label>
+            <input type="email" id="inputEmail" placeholder="введите email" required>
+            <br><br>
+            <label for="inputPassword">Пароль:</label>
+            <input type="text" id="inputPassword" placeholder="введите пароль" minlength="6" required>
+            <br><br>
+            <input type="submit" value="Отправить" id="inputButtonSend">
+        </form>
+
+        <div class="divOutput" id="divOutput">
+        </div>
+
+        <div class="divTask">
+            <img src="../../img/2.png" alt="Задание">
+        </div>
+    </section>
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

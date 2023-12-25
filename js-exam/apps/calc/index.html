@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор бюджета</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="sectionCalc">
+        <div class="divAppTitle">
+            Калькулятор бюджета 
+        </div>
+
+        <div class="divTotal">
+            <span class="spanDescription">Баланс бюджета:</span>
+            <span class="spanDescription" id="spanTotal-total">0</span>
+        </div>
+        
+        <div class="divInputs">
+
+            <div class="divInputLine">
+                <span class="spanDescription">Название операции</span>
+                <input class="divInputs-input" type="text" placeholder="какая-то операция" id="divInputs-input">
+            </div>
+
+            <div class="divInputLine">
+                <span class="spanDescription">Тип операции</span>
+                <select class="divInputs-input" id="selectOperationType">
+                    <option value="consumption">Расход</option>
+                    <option value="income">Доход</option>
+                </select>
+            </div>
+
+            <div class="divInputLine">
+                <span class="spanDescription">Сумма операции</span>
+                <input class="divInputs-input" type="number" value="0" id="divInputs-number">
+            </div>
+
+            <button class="button" id="buttonCalculate">Добавить в бюджет</button>
+        </div>
+
+        <div class="divLog">Лог операций:</div>
+        <div class="divInputsLogs" id="divInputsLogs">
+        </div>
+
+        <div class="divTask">
+            <img src="../../img/1.png" alt="Задание">
+        </div>
+        
+
+    </section>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

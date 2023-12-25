@@ -1,0 +1,58 @@
+.sectionCalc{
+    padding: 20px;
+}
+.divAppTitle{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.spanDescription{
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+.divTotal{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(207, 203, 203);
+    margin-bottom: 40px;
+}
+.divInputs{
+    text-align: center;
+    border: 1px solid rgb(207, 203, 203);
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.divInputs-input{
+    font-size: 22px;
+}
+.divInputLine{
+    padding: 10px;
+}
+.button{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.buttonDel{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.divInputsLogs{
+    border: 1px solid rgb(207, 203, 203);
+    padding: 10px;
+}
+.divTask{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.divLog{
+    text-align: center;
+    font-size: 25px
+}

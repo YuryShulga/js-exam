@@ -1,0 +1,48 @@
+.sectionMainContainer{
+    padding: 20px;
+}
+.divAppTitle{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+}
+.taskOutput{
+    border: 1px solid rgb(201, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+}
+.divCategorie{
+    border: 1px solid rgb(201, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.divProduct{
+    border: 1px solid rgb(201, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+.commonText{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.divTaskDescription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
